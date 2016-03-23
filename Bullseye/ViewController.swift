@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     } //puntfunt191010101001101010101110 <-(this is my(what i thought)was a codish languge)
   // Are you sure that puntfunt is a codish thing?
+// yes, or at least i thought it was.......................................................
     @IBAction func showAlert() {
         let alert = UIAlertController(title: "Hello, World", message: "This is my first app!", preferredStyle: .Alert)
         let action = UIAlertAction(title: "Awesome", style: .Default, handler: nil)
