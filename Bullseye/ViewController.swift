@@ -24,8 +24,9 @@ class ViewController: UIViewController {
 // yes, or at least i thought it was.......................................................
 
     @IBAction func showAlert() {
-        let alert = UIAlertController(title: "Hello, World", message: "This is my first app!", preferredStyle: .Alert)
-        let action = UIAlertAction(title: "Awesome", style: .Default, handler: nil)
+        let message = "The value of the slider is: \(currentValue)"
+        let alert = UIAlertController(title: "Hello, World", message: message, preferredStyle: .Alert)
+        let action = UIAlertAction(title: "OK", style: .Default, handler: nil)
         alert.addAction(action)
 
         presentViewController(alert, animated: true, completion: nil)
